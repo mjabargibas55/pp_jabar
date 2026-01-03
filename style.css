@@ -64,6 +64,45 @@ nav ul li a:hover {
     color: #38bdf8;
 }
 
+
+.dropdown-parent {
+    list-style: none;
+    /* Kunci Positioning 1: Membuat LI ini menjadi jangkar untuk sub-menu. */
+    position: relative; 
+}
+
+/* 2. SUBMENU (Yang akan disembunyikan) */
+.submenu {
+    list-style: none;
+    /* Kunci Positioning 2: Membuat sub-menu 'melayang' di atas konten lain. */
+    position: absolute; 
+    /* Tempatkan tepat 100% dari tinggi parent (di bawahnya) */
+    top: 100%; 
+    left: 0;
+    min-width: 125px;
+    background-color: #34495e;
+    
+    /* Kunci Display 1: Default-nya sembunyikan! */
+    display: none; 
+    z-index: 10; 
+}
+
+/* 3. AKSI HOVER */
+.dropdown-parent:hover .submenu {
+    /* Kunci Display 2: Tampilkan sub-menu hanya ketika kursor di atas parent. */
+    display: block; 
+}
+
+/* Styling Sub-menu Links */
+.submenu li a {
+    color: white;
+    padding: 10px 15px;
+    border-top: 1px solid #4d657a;
+}
+.submenu li a:hover {
+    background-color: #5d81a5;
+}
+
 /* SECTION */
 section {
     max-width: 900px;
@@ -126,3 +165,4 @@ footer {
     margin-top: 40px;
     font-size: 14px;
 }
+
