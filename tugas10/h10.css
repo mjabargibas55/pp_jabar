@@ -1,0 +1,85 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    padding: 30px;
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+/* Box document */
+.Document {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto 30px;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Document h3 {
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+/* Tombol link */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* List menu */
+.list {
+    max-width: 600px;
+    margin: auto;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list li {
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Link menu */
+.list a {
+    display: block;
+    padding: 14px 18px;
+    text-decoration: none;
+    color: #2c3e50;
+    transition: 0.3s;
+}
+
+.list a:hover {
+    background-color: #3498db;
+    color: white;
+}
