@@ -1,0 +1,122 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+body {
+  background-color: #f2f4f7;
+  padding: 30px;
+  color: #333;
+}
+
+/* Container utama */
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #34495e;
+}
+
+/* Paragraf */
+p {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Label */
+label {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Input, select */
+input,
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Radio & Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+/* Focus */
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 4px rgba(52, 152, 219, 0.5);
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Submit */
+button[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+/* Reset */
+button[type="reset"] {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button[type="reset"]:hover {
+  background-color: #c0392b;
+}
+
+/* Disabled */
+input:disabled {
+  background-color: #eeeeee;
+  cursor: not-allow
+}
