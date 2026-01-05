@@ -1,0 +1,10 @@
+/* Praktik standar yang wajib diterapkan */
+
+.inline-box { display: inline-block; width: 150px; padding: 10px; margin: 10px; 
+}
+.nav-menu li { display: inline-block; 
+}
+.nav-menu li a { display: block; padding: 10px 15px; margin-right: 5px; 
+}
+.nav-menu li a { text-decoration: none; color: white; background-color: #333; 
+}
